@@ -1,0 +1,256 @@
+/*elements*/
+.wrap {
+	background-color:rgba(255,255,255,1);
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', san-serif;
+}
+
+header {
+	background-color:rgba(250,250,250,1);
+	padding: 0 30px 20px 30px;
+}
+
+#content {
+	padding: 0 30px 30px 30px;
+}
+
+form {
+	border-bottom:1px solid #C7C7C7;
+	border-top:1px solid #C7C7C7;
+	display:block;
+	padding:10px 0;}
+
+label {
+	font-weight: 700;
+	margin-right:10px;
+	}
+
+	
+/*single elements*/
+#cartopress-logo {
+	margin: 20px 0 0 0;
+	max-width:200px;
+}
+
+#cpdb-cartodblogo {
+	position:relative;
+	top:18px;
+	}
+
+#cpdb-form-settings table.form-table {
+	width:100%;
+}
+
+#cpdb-form-settings .form-table, #cpdb-form-settings .form-table td, #cpdb-form-settings .form-table td p, #cpdb-form-settings .form-table th, #cpdb-form-settings .form-wrap label {
+    font-size: inherit;
+}
+
+#cpdb-form-settings .form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 8px 0 8px 0;
+    width: 100px;
+    line-height: normal;
+    font-weight: 700;
+}
+
+#cpdb-form-settings .form-table th, #cpdb-form-settings .form-wrap label {
+    color: inherit;
+    font-weight: 700;
+    text-shadow: none;
+    vertical-align: baseline;
+}
+
+#cpdb-form-settings table.form-table tr td {
+	padding:0;
+}
+
+.cpdb-specialinstruction {
+	padding:0 0 10px 0;
+	font-size:smaller;
+	font-style:italic;
+}
+
+#cpbd_tableconnect_connected {
+	position:absolute;
+	margin-left:-20px;
+	margin-top:5px;
+	display:none;
+}
+
+#cpbd_tableconnect_loading {
+	position:relative;
+	top:10px;
+	display:none;
+}
+
+.cpdb-breakout {
+	border-top:1px solid #C7C7C7;
+	border-bottom:1px solid #C7C7C7;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+.cpdb-settingsection {
+	border-top:1px solid #C7C7C7;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+#cpdb-form-settings input:not([type="submit"]), 
+#cpdb-publishtype-singlepost input:not([type="submit"]) {
+	padding:5px;
+	vertical-align:middle;
+	width:100%;
+}
+
+#cpdb-form-settings input[type="checkbox"] {
+	vertical-align:top;
+	margin:0 10px 0 0;
+	width:20px;
+}
+#cpdb-form-settings .label {
+	vertical-align:bottom;
+	margin:0 20px -4px 0;
+}
+
+#cpdb-form-settings input.button:not([type="submit"]) {
+	padding:0;
+	margin:10px 0 0 100px;
+}
+
+#generate_table {
+ 	max-width:200px;
+ 	height:30px;
+}
+.cpdb-attribution {
+	font-style:italic;
+}
+
+
+#cpdb-customfields-select {
+	opacity:0;
+	height:0px;
+	margin-top:0px;
+	padding:0px 20px;
+	border-top-color: rgb(220,220,220);
+	border-top-style: solid;
+	border-bottom-color: rgb(220,220,220);
+	border-bottom-style: solid;
+	
+}
+
+#cpdb-customfields-select h5 {
+	margin:0 0 5px 0;
+	font-weight:900;
+}
+#cpdb-customfields-select select {
+	width:100%;
+	max-width:300px;
+}
+
+#cpdb-customfields-select select option[disabled]{
+	color:rgb(200,200,200);
+	font-style:italic;
+}
+#cpdb-form-settings #add_column {
+	margin:0;
+	position: relative;
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;	
+}
+#cpdb-customfield-display {
+	width:100%;
+	background:rgba(250, 250, 250, 1);
+	box-sizing:border-box;
+	padding:20px;
+	margin-top:20px;
+}
+
+#cpdb-customfield-display table {
+	width:100%;
+	border-collapse: collapse;
+}
+
+#cpdb-customfield-display thead {
+	background:#0074a2;
+	color:rgb(255,255,255);
+	font-family:Montserrat, 'Helvetica Neue', Helvetica, Arial, san-serif;
+	font-weight:500;
+	margin-bottom:5px;
+	height:40px;
+}
+#cpdb-customfield-display td {
+	padding:5px;
+	width:42.5%;
+}
+#cpdb-customfield-display tbody td {
+	border-bottom:1px solid rgb(220,220,220);
+}
+#cpdb-customfield-display td:first-of-type {
+	width:5%;
+	min-width:45px;
+}
+#cpdb-customfield-display td:last-of-type {
+	width:10%;
+	min-width:100px;
+}
+#cpdb-customfield-display tbody tr {
+	background:rgb(255,255,255);
+}
+#cpdb-customfield-display .deletebutton {
+	width:100%;
+	text-align:center;
+}
+#cpdb-customfield-display input[type='text'] {
+	cursor: default;
+	box-shadow: none;
+	border:none;
+	padding:0;
+}
+
+#cpdb-comment {
+	margin:20px 0 0 0;
+	padding:8px 12px;
+	background:#FFFFFF;
+	border-left:4px solid #0074a2;
+	border-top:1px solid rgb(220,220,220);
+	font-style:italic;
+	box-shadow: 0 0 3px rgba(0,0,0,.1);
+	display:none;
+}
+#cpdb-comment.success {
+	border-left-color:#7AD03A;
+}
+#cpdb-comment.error {
+	border-left-color:#dd3d36;
+}
+#cpdb-comment.warning {
+	border-left-color:#ffba00;
+}
+
+/*type*/
+p {
+	margin-top:0;
+}
+form + p {
+	margin-top:10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', 'Arial', san-serif;
+	font-weight: 400;
+ }
+
+h1#title {
+	margin-top:40px;
+}
+h2#settings {
+	font-weight:700;
+}
+
+h3 {
+	color:#0074a2;
+}
+h4 {
+	margin-bottom:5px;
+}
